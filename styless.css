@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_principal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 10%; /* Reducir el ancho del contenedor */
+    margin: 10px auto;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+.suma_boton,
+.resta_boton,
+.resent_boton {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px; /* Reducir el padding horizontal */
+    margin: 5px 1px; /* Reducir aún más el margen horizontal */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size:20px ;
+}
+
+.suma_boton:hover,
+.resta_boton:hover,
+.resent_boton:hover {
+    background-color: darkgreen;
+}
+
+/* Estilos para el párrafo */
+.salida_variable {
+    color: black; 
+    background-color: pink; 
+    font-size: 24px;
+    margin: 20px 0;
+    display: inline-block; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    
+}
+
+/* Alineación de botones y párrafo */
+#suma {
+    float: left;
+}
+
+#resta {
+    float: right;
+}
+
+#reset {
+    float:center;
+       
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
